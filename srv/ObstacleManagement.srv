@@ -1,0 +1,6 @@
+float64[3] box_position
+float64[3] box_dimensions
+string box_id
+string type
+---
+bool created
