@@ -26,7 +26,7 @@ endif()
 find_package(rosidl_default_generators REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
-  "srv/JointTrajectory.srv"
+  "srv/PlanTrajectory.srv"
   "srv/ObstacleManagement.srv"
 )
 
